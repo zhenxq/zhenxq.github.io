@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="markdwon," />
 
 
 
@@ -84,16 +84,16 @@
 
 
 
-<meta name="description" content="时光让记忆消散，存下的成为经历。">
+<meta name="description" content="简介Markdown 是一种轻量级标记语言，目标是实现「易读易写」。本文介绍Markdown的语法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkDown语法">
 <meta property="og:url" content="http://yoursite.com/2016/12/31/MarkDown语法/index.html">
 <meta property="og:site_name" content="Dreamer">
-<meta property="og:description" content="时光让记忆消散，存下的成为经历。">
-<meta property="og:updated_time" content="2016-12-31T09:46:40.951Z">
+<meta property="og:description" content="简介Markdown 是一种轻量级标记语言，目标是实现「易读易写」。本文介绍Markdown的语法。">
+<meta property="og:updated_time" content="2017-01-02T08:17:00.776Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MarkDown语法">
-<meta name="twitter:description" content="时光让记忆消散，存下的成为经历。">
+<meta name="twitter:description" content="简介Markdown 是一种轻量级标记语言，目标是实现「易读易写」。本文介绍Markdown的语法。">
 
 
 
@@ -323,6 +323,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/语法/" itemprop="url" rel="index">
+                    <span itemprop="name">语法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -369,7 +391,82 @@
       
 
       
-        
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Markdown 是一种轻量级标记语言，目标是实现「易读易写」。<br>本文介绍Markdown的语法。<br><a id="more"></a></p>
+<h1 id="标题-共六级"><a href="#标题-共六级" class="headerlink" title="标题(共六级)"></a>标题(共六级)</h1><figure class="highlight plain"><figcaption><span>标题</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 一级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">"user-content-锚点"</span>&gt;</span>标题就是对应的锚点<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div></pre></td></tr></table></figure>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>引用通过开头的”&gt;”的个数，表示层级。<br>最后一行为空行，结束引用。<br>引用中可以使用其它的语法：标题，列表，代码块。<br><figure class="highlight plain"><figcaption><span>引用</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; 第一层</div><div class="line">&gt;&gt;第二层</div><div class="line">&gt;&gt;&gt;第三层</div><div class="line">&gt;</div><div class="line">&gt; 第一层</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>第一层</p>
+<blockquote>
+<p>第二层</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
+<p>第一层</p>
+</blockquote>
+<h1 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h1><figure class="highlight plain"><figcaption><span>斜体、粗体、分割线</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">*斜体*</div><div class="line">_斜体_</div><div class="line">**粗体**</div><div class="line">__粗体__</div><div class="line">~~文字删除线~~</div></pre></td></tr></table></figure>
+<p><em>斜体</em><br><strong>粗体</strong><br><del>文字删除线</del></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>列表通过缩进表示层级；最后一行是空行结束列表。<br><figure class="highlight plain"><figcaption><span>无序列表</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- Red</div><div class="line">- Green</div><div class="line"> - Blue</div></pre></td></tr></table></figure></p>
+<ul>
+<li>Red</li>
+<li>Green<ul>
+<li>Blue</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><figcaption><span>有序列表</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. Red</div><div class="line">2. Green</div><div class="line"> 3. Blue</div></pre></td></tr></table></figure>
+<ol>
+<li>Red</li>
+<li>Green<ol>
+<li>Blue</li>
+</ol>
+</li>
+</ol>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">代码写在```和```之间</div><div class="line">import sys</div><div class="line">print(sys.platform)</div></pre></td></tr></table></figure>
+<h1 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h1><figure class="highlight plain"><figcaption><span>连接</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[连接标题](http://path)</div><div class="line">&lt;连接地址&gt;</div></pre></td></tr></table></figure>
+<p><a href="https://www.python.org/" target="_blank" rel="external">python主页</a><br><a href="https://www.python.org/" target="_blank" rel="external">https://www.python.org/</a></p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><figure class="highlight plain"><figcaption><span>图片</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">![图片的alt属性](连接地址) </div><div class="line">![图片的alt属性](连接地址 &quot;图片名字&quot;) </div><div class="line">图片引用：</div><div class="line">![图片的alt属性][id]  </div><div class="line">[id]: 连接地址 &quot;图片名字&quot; </div></pre></td></tr></table></figure>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><figcaption><span>表格</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">First Header | Second Header | Third Header</div><div class="line">------------ | ------------- | ------------</div><div class="line">Content Cell | Content Cell  | Content Cell</div><div class="line"></div><div class="line">在header下“：”的位置控制居中方式：</div><div class="line">First Header | Second Header | Third Header</div><div class="line">:----------- | :-----------: | -----------:</div><div class="line">Content Cell | Content Cell  | Content Cell</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+<th>Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">First Header</th>
+<th style="text-align:center">Second Header</th>
+<th style="text-align:right">Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Content Cell</td>
+<td style="text-align:center">Content Cell</td>
+<td style="text-align:right">Content Cell</td>
+</tr>
+</tbody>
+</table>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><figure class="highlight plain"><figcaption><span>分割线</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">分割线上</div><div class="line">- - -</div><div class="line">分割线下</div></pre></td></tr></table></figure>
+<p>分割线上</p>
+<hr>
+<p>分割线下</p>
+<h1 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h1><figure class="highlight plain"><figcaption><span>上下标</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">\^表示上标, _表示下标。</div><div class="line">x^&#123;y^z&#125;=(1+&#123;\rm e&#125;^x)^&#123;-2xy^w&#125;</div></pre></td></tr></table></figure>
+<p>x^{y^z}=(1+{\rm e}^x)^{-2xy^w}</p>
+
       
     </div>
 
@@ -390,23 +487,13 @@
 
     <footer class="post-footer">
       
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/12/31/第二个文章/" rel="next" title="第二个文章">
-                <i class="fa fa-chevron-left"></i> 第二个文章
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
+        <div class="post-tags">
+          
+            <a href="/tags/markdwon/" rel="tag"># markdwon</a>
+          
         </div>
+      
+
       
 
       
@@ -417,6 +504,12 @@
 
 
     <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
       
     </div>
   </div>
@@ -454,8 +547,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/14173733.jpg"
@@ -468,7 +570,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -486,7 +588,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -512,6 +614,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#标题-共六级"><span class="nav-number">2.</span> <span class="nav-text">标题(共六级)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用"><span class="nav-number">3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#强调"><span class="nav-number">4.</span> <span class="nav-text">强调</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#列表"><span class="nav-number">5.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码"><span class="nav-number">6.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#连接"><span class="nav-number">7.</span> <span class="nav-text">连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图片"><span class="nav-number">8.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#表格"><span class="nav-number">9.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分割线"><span class="nav-number">10.</span> <span class="nav-text">分割线</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#上下标"><span class="nav-number">11.</span> <span class="nav-text">上下标</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
     </div>
   </aside>
@@ -525,8 +643,8 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>

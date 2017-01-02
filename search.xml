@@ -5,21 +5,7 @@
     <entry>
       <title><![CDATA[MarkDown语法]]></title>
       <url>%2F2016%2F12%2F31%2FMarkDown%E8%AF%AD%E6%B3%95%2F</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[第二个文章]]></title>
-      <url>%2F2016%2F12%2F31%2F%E7%AC%AC%E4%BA%8C%E4%B8%AA%E6%96%87%E7%AB%A0%2F</url>
-      <content type="text"><![CDATA[简介这个是二22222222个简介，你想要看到更多吗？等着吧。使用让正文和简介分开来。 这里是正文今天天气一般般，新的一天 lalalallolololo lala–lkakl]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[One blog第一文章]]></title>
-      <url>%2F2016%2F12%2F31%2FOne-blog%E7%AC%AC%E4%B8%80%E6%96%87%E7%AB%A0%2F</url>
-      <content type="text"><![CDATA[简介这个是一个简介，你想要看到更多吗？等着吧。使用让正文和简介分开来。 这里是正文今天天气一般般，新的一天 lalalallolololo lala–lkakl]]></content>
+      <content type="text"><![CDATA[简介Markdown 是一种轻量级标记语言，目标是实现「易读易写」。本文介绍Markdown的语法。 标题(共六级)标题123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 1&lt;h1 id="user-content-锚点"&gt;标题就是对应的锚点&lt;/h1&gt; 引用引用通过开头的”&gt;”的个数，表示层级。最后一行为空行，结束引用。引用中可以使用其它的语法：标题，列表，代码块。引用12345&gt; 第一层&gt;&gt;第二层&gt;&gt;&gt;第三层&gt;&gt; 第一层 第一层 第二层 第三层 第一层 强调斜体、粗体、分割线12345*斜体*_斜体_**粗体**__粗体__~~文字删除线~~ 斜体粗体文字删除线 列表列表通过缩进表示层级；最后一行是空行结束列表。无序列表123- Red- Green - Blue Red Green Blue 有序列表1231. Red2. Green 3. Blue Red Green Blue 代码123代码写在```和```之间import sysprint(sys.platform) 连接连接12[连接标题](http://path)&lt;连接地址&gt; python主页https://www.python.org/ 图片图片12345![图片的alt属性](连接地址) ![图片的alt属性](连接地址 &quot;图片名字&quot;) 图片引用：![图片的alt属性][id] [id]: 连接地址 &quot;图片名字&quot; 表格表格12345678First Header | Second Header | Third Header------------ | ------------- | ------------Content Cell | Content Cell | Content Cell在header下“：”的位置控制居中方式：First Header | Second Header | Third Header:----------- | :-----------: | -----------:Content Cell | Content Cell | Content Cell First Header Second Header Third Header Content Cell Content Cell Content Cell First Header Second Header Third Header Content Cell Content Cell Content Cell 分割线分割线123分割线上- - -分割线下 分割线上 分割线下 上下标上下标12\^表示上标, _表示下标。x^&#123;y^z&#125;=(1+&#123;\rm e&#125;^x)^&#123;-2xy^w&#125; x^{y^z}=(1+{\rm e}^x)^{-2xy^w}]]></content>
     </entry>
 
     
